@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="hard_boogie_fmdb@localhost" uuid="d6728828-623b-42fb-aa06-60d0dc822960">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/hard_boogie_fmdb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="de0euf6v90l3lg@ec2-54-247-101-202.eu-west-1.compute.amazonaws.com" uuid="63c24e01-40fb-4747-83cc-574eab909ae6">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-54-247-101-202.eu-west-1.compute.amazonaws.com:5432/de0euf6v90l3lg</jdbc-url>
+      <driver-properties>
+        <property name="sslfactory" value="org.postgresql.ssl.NonValidatingFactory" />
+        <property name="ssl" value="true" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
